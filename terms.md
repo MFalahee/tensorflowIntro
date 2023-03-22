@@ -13,9 +13,11 @@
 # best practices for training model
 
 1. shuffle data
-   -> Don't learn things purely by how the data was entered
-   -> Don't be sensitive to subgroups in the data
-2. normalize data (0-1, -1-1, anything bigger gets wacko)
+   - prevents learning purely by how the data was entered
+   - partially prevents sensitivity to to subgroups in the data
+2. normalize data 
+    - normal ranges: 0-1, -1-1
+    - because bigger numbers get wacko in algorithms basically
 
 # takeaways: **EXAMPLE 1** -->
 
